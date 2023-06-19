@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    public class Building
+    public abstract class Materials
     {
-        public string Street { get; set; }
-        public int StreetNumber { get; set; }
+        internal abstract string MaterialConstructionFirstStep();
     }
 }
